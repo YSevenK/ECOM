@@ -31,4 +31,5 @@ func (s *APIServer) Run() error {
 	log.Println("Listening on", s.addr)
 
 	return http.ListenAndServe(s.addr, router)
+	
 }
